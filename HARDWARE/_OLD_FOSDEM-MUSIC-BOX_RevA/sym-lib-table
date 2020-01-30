@@ -1,3 +1,0 @@
-(sym_lib_table
- (lib (name FOSDEM-MUSIC-BOX_RevA)(type Legacy)(uri ${KIPRJMOD}/FOSDEM-MUSIC-BOX_RevA.lib)(options "")(descr ""))
-)
