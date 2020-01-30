@@ -1,18 +1,20 @@
-#ifndef	_SPEAKERS_H
-#define	_SPEAKERS_H
+#ifndef	_SPEAKER_H
+#define	_SPEAKER_H
 
 #define CLK 8000000
 
 #define SPEAKER  0
-extern const unsigned char Speaker_Mask;
 
+void Speaker_Init ();
+
+void Speaker_Mute ();
+
+void Speaker_Tone (int Frequency);
 
 void MyDelay (volatile long int Time);
 
-void Note (int Channel0_Frequency, int Channel1_Frequency, int Duration);
+void Note (int Speaker_Frequency, int Duration);
 
-void Play (const int Channel0_Notes[], const int Channel1_Notes[], const int Durations[], int Tempo);
-
-void Play_PROGMEM (const int Channel0_Notes[], const int Channel1_Notes[], const int Durations[], int Tempo);
+void Play (const int Channel_Notes[], const int Durations[], int Tempo);
 
 #endif
