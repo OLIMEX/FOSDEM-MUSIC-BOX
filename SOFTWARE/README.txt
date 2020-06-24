@@ -1,5 +1,7 @@
 FOSDEM-MUSIC-BOX software for Arduino IDE 1.8.10
 
+Notice that the chip comes pre-loaded and to play the demo sound touch the light sensor!
+
 You need to install the Olimex package first, else you would encounter compilation issues.
 
 Please do the following:
